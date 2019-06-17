@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="740dp"
+    android:background="#f8f9fa"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="24dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/alpha_squrecle"/>
+
+    <TextView
+        android:layout_width="124dp"
+        android:layout_height="20dp"
+        android:textSize="14sp"
+        android:textColor="#de000000"
+        android:letterSpacing="0.02"
+        android:lineSpacingExtra="6sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="17dp"
+        android:layout_gravity="center"
+        tools:text="Explore The World"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:textSize="24sp"
+        android:textColor="#de000000"
+        android:letterSpacing="0.01"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+
+        tools:text="With Alpha Hotels"
+        />
+
+    <TextView
+        android:layout_width="281dp"
+        android:layout_height="14dp"
+        android:layout_marginTop="19dp"
+        android:textSize="12sp"
+        android:textColor="#de000000"
+        android:letterSpacing="0.02"
+        android:textAppearance="Rubik-Regular"
+        android:layout_gravity="center"
+        tools:text="Email Address" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="5dp"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:hint="john.doe@gmail.com"
+        android:textSize="14sp"
+        android:textColorHint="#de000000"
+        android:padding="15dp"
+        android:letterSpacing="0.25"
+        android:textAppearance="Rubik-Regular"
+        android:background="@drawable/border_login"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="281dp"
+        android:layout_height="14dp"
+        android:textSize="12sp"
+        android:layout_marginTop="13dp"
+        android:textAppearance="Rubik-Regular"
+        android:textColor="#de000000"
+        android:letterSpacing="0.02"
+        android:layout_gravity="center"
+        tools:text="Password" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/border_login"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:hint="########"
+        android:textSize="14sp"
+        android:textColorHint="#de000000"
+        android:padding="15dp"
+        android:letterSpacing="0.25"
+        android:textAppearance="Rubik-Regular"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:textAppearance="Rubik-Medium"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:background="@drawable/btn_brdr"
+        android:letterSpacing="0.09"
+        android:lineSpacingExtra="2sp"
+        android:gravity="center"
+        tools:text="Log in" />
+
+    <TextView
+        android:layout_width="125dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="9dp"
+        android:textAppearance="Rubik-Regular"
+        android:textSize="14sp"
+        android:layout_gravity="center"
+        android:textColor="#de000000"
+        android:letterSpacing="0.02"
+        android:lineSpacingExtra="6sp"
+        tools:text="Forgot Password ?"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="Rubik-Medium"
+        android:layout_marginTop="22dp"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:textColor="#0b7285"
+        android:lineSpacingExtra="0sp"
+        tools:text="Register if haven’t registered"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:lineSpacingExtra="0sp"
+        android:textAppearance="Rubik-Regular"
+        tools:text="Explore the App As Guest"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+
+</LinearLayout>

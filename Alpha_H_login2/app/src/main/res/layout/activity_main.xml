@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="360dp"
+    android:layout_height="740dp"
+    android:background="#f8f9fa"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="360dp"
+        android:layout_height="24dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="80dp"
+        android:layout_gravity="center"
+        android:src="@drawable/alpha_squrecle"/>
+
+    <TextView
+        android:layout_width="124dp"
+        android:layout_height="20dp"
+        android:textSize="14sp"
+        android:textColor="#de000000"
+        android:letterSpacing="0.02"
+        android:lineSpacingExtra="6sp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="17dp"
+        android:layout_gravity="center"
+        tools:text="Explore The World"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:textSize="24sp"
+        android:textColor="#de000000"
+        android:letterSpacing="0.01"
+        android:gravity="center_horizontal"
+        android:layout_gravity="center"
+
+        tools:text="With Alpha Hotels"
+        />
+
+    <Button
+        android:id="@+id/login_fb"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:background="@drawable/f_g_border"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:drawableLeft="@drawable/facebook"
+        android:text="Countinue With Facebook"
+        android:textAppearance="Rubik-Medium"
+        android:textAlignment="center"
+        android:textColor="#0b7285"
+        android:padding="3dp"
+        android:textSize="16sp"
+        android:letterSpacing="1.24"
+        android:lineSpacingExtra="2sp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/login_google"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:drawableStart="@drawable/google"
+        android:padding="3dp"
+        android:background="@drawable/f_g_border"
+        android:text="Countinue With Google"
+        android:textColor="#0b7285"
+        android:textAppearance="Rubik-Medium"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:letterSpacing="1.24"
+        android:lineSpacingExtra="2sp"
+        android:gravity="center"
+        android:drawableLeft="@drawable/google" />
+    <Button
+        android:id="@+id/create_acc"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:padding="3dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:drawableLeft="@drawable/alpha"
+        android:background="@drawable/btn_brdr"
+        android:text="Create Account"
+        android:textColor="#ffffff"
+        android:textAppearance="Rubik-Medium"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:letterSpacing="1.24"
+        android:lineSpacingExtra="2sp"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="#0b7285"
+        android:layout_marginTop="36dp"
+        android:layout_gravity="center"
+        android:textAppearance="Rubik-Medium"
+        tools:text="Login if already registered" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textSize="14sp"
+        android:textColor="#de000000"
+        android:letterSpacing="0.25"
+        android:lineSpacingExtra="10sp"
+        android:textAppearance="Rubik-Regular"
+        tools:text="By Creating or Continuing with any social id,"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textColor="#de000000"
+        android:letterSpacing="0.25"
+        android:lineSpacingExtra="10sp"
+        android:textAppearance="Rubik-Regular"
+        tools:text="I agree to Alpha Hotel’s Terms of service and privacy policy."
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        />
+
+    <TextView
+        android:id="@+id/explore_app"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:textSize="16sp"
+        android:textColor="#000000"
+        android:lineSpacingExtra="0sp"
+        android:textAppearance="Rubik-Regular"
+        tools:text="Explore the App As Guest"
+        android:gravity="center"
+        android:layout_gravity="center"
+        />
+
+
+
+
+
+
+</LinearLayout>
